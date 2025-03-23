@@ -1,0 +1,45 @@
+{
+  "name": "react",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev --port 3003",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "s": "bun --watch scripts/run.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.0",
+    "@tailwindcss/vite": "^4.0.15",
+    "@tanstack/react-query": "^5.69.0",
+    "@tanstack/react-query-devtools": "^5.69.0",
+    "@tanstack/react-router": "^1.114.27",
+    "@tanstack/react-router-with-query": "^1.114.27",
+    "@tanstack/react-start": "^1.114.27",
+    "@tanstack/router-devtools": "^1.114.27",
+    "babel-plugin-react-compiler": "^19.0.0-beta-3229e95-20250315",
+    "drizzle-orm": "^0.41.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "redaxios": "^0.5.1",
+    "tailwind-merge": "^3.0.2",
+    "vinxi": "0.5.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.5",
+    "drizzle-kit": "^0.30.5",
+    "tsx": "^4.19.3",
+    "@types/node": "^22.13.11",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.15",
+    "typescript": "^5.8.2",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
